@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Info</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Vazirmatn:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons for visuals -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <style>
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+        }
+        h1, h2, h3, .brand-font {
+            font-family: 'Lalezar', system-ui;
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #ef4444; /* red-500 */
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #dc2626; /* red-600 */
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 leading-relaxed">
+
+    <!-- English Header -->
+    <header class="bg-gradient-to-r from-red-600 to-red-800 text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-4xl tracking-wider uppercase drop-shadow-md">Ping Pong</h1>
+            <i class="ph-fill ph-ping-pong text-4xl animate-bounce"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section / Title -->
+    <div class="bg-white border-b border-gray-200">
+        <div class="container mx-auto px-4 py-10 text-center">
+            <span class="inline-block p-3 rounded-full bg-red-100 text-red-600 mb-4">
+                <i class="ph-duotone ph-trophy text-4xl"></i>
+            </span>
+            <h2 class="text-4xl md:text-5xl text-gray-900 mb-4 brand-font">تنیس روی میز (پینگ‌پنگ)</h2>
+            <p class="text-xl text-gray-500 font-light max-w-2xl mx-auto">راهنمای کامل آشنایی با یکی از سریع‌ترین ورزش‌های جهان</p>
+        </div>
+    </div>
+
+    <main class="container mx-auto px-4 py-8 max-w-4xl space-y-8">
+
+        <!-- 1. Introduction -->
+        <section class="bg-white rounded-2xl shadow-sm p-6 md:p-8 hover:shadow-md transition-shadow border-r-4 border-red-500">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="bg-red-50 p-2 rounded-lg text-red-600 font-bold brand-font text-xl">۱</div>
+                <h3 class="text-2xl text-gray-800 brand-font">معرفی</h3>
+            </div>
+            <p class="text-justify text-gray-600">
+                تنیس روی میز که با نام پینگ‌پنگ نیز شناخته می‌شود، یکی از ورزش‌های پرطرفدار و سریع دنیاست. این ورزش به‌صورت انفرادی (یک‌نفره) یا دونفره (دوبل) انجام می‌شود و نیازمند سرعت عمل، تمرکز، دقت و هماهنگی چشم و دست است. تنیس روی میز هم به‌صورت تفریحی و هم حرفه‌ای در سراسر جهان بازی می‌شود.
+            </p>
+        </section>
+
+        <!-- 2. History -->
+        <section class="bg-white rounded-2xl shadow-sm p-6 md:p-8 hover:shadow-md transition-shadow border-r-4 border-blue-500">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="bg-blue-50 p-2 rounded-lg text-blue-600 font-bold brand-font text-xl">۲</div>
+                <h3 class="text-2xl text-gray-800 brand-font">تاریخچه</h3>
+            </div>
+            <ul class="space-y-3 text-gray-600 list-disc list-inside marker:text-blue-500">
+                <li>ریشهٔ تنیس روی میز به اواخر قرن نوزدهم در انگلستان بازمی‌گردد. در ابتدا به‌عنوان یک بازی سرگرم‌کننده در خانه‌ها انجام می‌شد.</li>
+                <li>در سال ۱۹۲۶ فدراسیون جهانی تنیس روی میز (ITTF) تأسیس شد و این ورزش به‌تدریج شکل رسمی و رقابتی به خود گرفت.</li>
+                <li>تنیس روی میز از سال ۱۹۸۸ وارد بازی‌های المپیک شد.</li>
+            </ul>
+        </section>
+
+        <!-- 3. Equipment -->
+        <section class="bg-white rounded-2xl shadow-sm p-6 md:p-8 hover:shadow-md transition-shadow border-r-4 border-green-500">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="bg-green-50 p-2 rounded-lg text-green-600 font-bold brand-font text-xl">۳</div>
+                <h3 class="text-2xl text-gray-800 brand-font">تجهیزات مورد نیاز</h3>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Table -->
+                <div class="bg-gray-50 p-4 rounded-xl border border-gray-100">
+                    <h4 class="font-bold text-green-700 mb-2 flex items-center gap-2"><i class="ph-fill ph-table text-xl"></i> الف) میز</h4>
+                    <ul class="text-sm space-y-1 text-gray-600">
+                        <li><span class="font-semibold">طول:</span> ۲.۷۴ متر</li>
+                        <li><span class="font-semibold">عرض:</span> ۱.۵۲۵ متر</li>
+                        <li><span class="font-semibold">ارتفاع:</span> ۷۶ سانتی‌متر</li>
+                        <li><span class="font-semibold">رنگ:</span> سبز یا آبی با خطوط سفید</li>
+                    </ul>
+                </div>
+                <!-- Ball -->
+                <div class="bg-gray-50 p-4 rounded-xl border border-gray-100">
+                    <h4 class="font-bold text-orange-600 mb-2 flex items-center gap-2"><i class="ph-fill ph-tennis-ball text-xl"></i> ب) توپ</h4>
+                    <ul class="text-sm space-y-1 text-gray-600">
+                        <li><span class="font-semibold">قطر:</span> ۴۰ میلی‌متر</li>
+                        <li><span class="font-semibold">وزن:</span> ۲.۷ گرم</li>
+                        <li><span class="font-semibold">جنس:</span> پلاستیک</li>
+                        <li><span class="font-semibold">رنگ:</span> سفید یا نارنجی</li>
+                    </ul>
+                </div>
+                <!-- Racket -->
+                <div class="bg-gray-50 p-4 rounded-xl border border-gray-100">
+                    <h4 class="font-bold text-red-600 mb-2 flex items-center gap-2"><i class="ph-fill ph-hand-palm text-xl"></i> ج) راکت</h4>
+                    <p class="text-sm text-gray-600 mb-2">راکت از چوب و رویه‌های لاستیکی تشکیل شده است.</p>
+                    <ul class="text-sm space-y-1 text-gray-600 list-disc list-inside">
+                        <li>یک طرف معمولاً قرمز</li>
+                        <li>طرف دیگر مشکی</li>
+                    </ul>
+                    <p class="text-xs text-gray-500 mt-2">نوع رویه تأثیر زیادی در سرعت، پیچ و کنترل دارد.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Rules -->
+        <section class="bg-white rounded-2xl shadow-sm p-6 md:p-8 hover:shadow-md transition-shadow border-r-4 border-yellow-500">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="bg-yellow-50 p-2 rounded-lg text-yellow-600 font-bold brand-font text-xl">۴</div>
+                <h3 class="text-2xl text-gray-800 brand-font">قوانین اصلی بازی</h3>
+            </div>
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 text-gray-600">
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check-circle text-yellow-500 mt-1"></i> هر بازی از ست‌های ۱۱ امتیازی تشکیل می‌شود.</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check-circle text-yellow-500 mt-1"></i> بازیکنی که زودتر به ۱۱ امتیاز برسد و حداقل ۲ امتیاز اختلاف داشته باشد، برنده است.</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check-circle text-yellow-500 mt-1"></i> مسابقات معمولاً ۳ از ۵ یا ۴ از ۷ ست برگزار می‌شوند.</li>
+                <li class="flex items-start gap-2"><i class="ph-bold ph-check-circle text-yellow-500 mt-1"></i> سرویس هر ۲ امتیاز یک‌بار تغییر می‌کند.</li>
+                <li class="flex items-start gap-2 col-span-1 md:col-span-2"><i class="ph-bold ph-check-circle text-yellow-500 mt-1"></i> در امتیاز ۱۰–۱۰ (دوس)، سرویس هر ۱ امتیاز عوض می‌شود.</li>
+            </ul>
+        </section>
+
+        <!-- 5. Service -->
+        <section class="bg-white rounded-2xl shadow-sm p-6 md:p-8 hover:shadow-md transition-shadow border-r-4 border-purple-500">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="bg-purple-50 p-2 rounded-lg text-purple-600 font-bold brand-font text-xl">۵</div>
+                <h3 class="text-2xl text-gray-800 brand-font">سرویس صحیح</h3>
+            </div>
+            <div class="bg-purple-50 rounded-xl p-5">
+                <ol class="space-y-2 text-gray-700 list-decimal list-inside marker:text-purple-600 marker:font-bold">
+                    <li>توپ باید روی کف دست آزاد قرار گیرد.</li>
+                    <li>توپ حداقل ۱۶ سانتی‌متر به هوا پرتاب شود.</li>
+                    <li>توپ ابتدا باید به زمین سرویس‌زننده و سپس به زمین حریف برخورد کند.</li>
+                    <li>در دوبل، سرویس باید به‌صورت مورب انجام شود.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- 6. Techniques -->
+        <section class="bg-white rounded-2xl shadow-sm p-6 md:p-8 hover:shadow-md transition-shadow border-r-4 border-indigo-500">
+            <div class="flex items-center gap-3 mb-6">
+                <div class="bg-indigo-50 p-2 rounded-lg text-indigo-600 font-bold brand-font text-xl">۶</div>
+                <h3 class="text-2xl text-gray-800 brand-font">تکنیک‌ها و ضربات مهم</h3>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                <div class="p-4 bg-gray-50 rounded-lg hover:bg-indigo-50 transition-colors">
+                    <span class="block font-bold text-indigo-700 mb-1">فورهند (Forehand)</span>
+                    <span class="text-sm text-gray-600">ضربه با سمت اصلی دست</span>
+                </div>
+                <div class="p-4 bg-gray-50 rounded-lg hover:bg-indigo-50 transition-colors">
+                    <span class="block font-bold text-indigo-700 mb-1">بک‌هند (Backhand)</span>
+                    <span class="text-sm text-gray-600">ضربه با سمت مخالف</span>
+                </div>
+                <div class="p-4 bg-gray-50 rounded-lg hover:bg-indigo-50 transition-colors">
+                    <span class="block font-bold text-indigo-700 mb-1">اسمش (Smash)</span>
+                    <span class="text-sm text-gray-600">ضربهٔ قدرتی برای پایان دادن به امتیاز</span>
+                </div>
+                <div class="p-4 bg-gray-50 rounded-lg hover:bg-indigo-50 transition-colors">
+                    <span class="block font-bold text-indigo-700 mb-1">تاپ‌اسپین (Topspin)</span>
+                    <span class="text-sm text-gray-600">ضربه با پیچ رو به جلو</span>
+                </div>
+                <div class="p-4 bg-gray-50 rounded-lg hover:bg-indigo-50 transition-colors">
+                    <span class="block font-bold text-indigo-700 mb-1">بک‌اسپین (Backspin)</span>
+                    <span class="text-sm text-gray-600">ضربه با پیچ رو به عقب</span>
+                </div>
+                <div class="p-4 bg-gray-50 rounded-lg hover:bg-indigo-50 transition-colors">
+                    <span class="block font-bold text-indigo-700 mb-1">بلاک (Block)</span>
+                    <span class="text-sm text-gray-600">دفاع در برابر ضربات قدرتی</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Styles -->
+        <section class="bg-gradient-to-br from-gray-800 to-gray-900 text-white rounded-2xl shadow-sm p-6 md:p-8">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="bg-white/10 p-2 rounded-lg text-white font-bold brand-font text-xl">۷</div>
+                <h3 class="text-2xl brand-font">سبک‌های بازی</h3>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <div class="p-4 rounded-xl bg-white/5 backdrop-blur-sm">
+                    <i class="ph-duotone ph-sword text-3xl mb-2 text-red-400"></i>
+                    <h4 class="font-bold text-lg mb-1">تهاجمی</h4>
+                    <p class="text-sm text-gray-300">مبتنی بر حمله و ضربات سرعتی</p>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 backdrop-blur-sm">
+                    <i class="ph-duotone ph-shield text-3xl mb-2 text-blue-400"></i>
+                    <h4 class="font-bold text-lg mb-1">دفاعی</h4>
+                    <p class="text-sm text-gray-300">تمرکز بر کنترل و اشتباه گرفتن از حریف</p>
+                </div>
+                <div class="p-4 rounded-xl bg-white/5 backdrop-blur-sm">
+                    <i class="ph-duotone ph-scales text-3xl mb-2 text-purple-400"></i>
+                    <h4 class="font-bold text-lg mb-1">همه‌جانبه</h4>
+                    <p class="text-sm text-gray-300">ترکیب حمله و دفاع (رایج‌ترین سبک)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Benefits -->
+        <section class="bg-white rounded-2xl shadow-sm p-6 md:p-8 hover:shadow-md transition-shadow border-r-4 border-teal-500">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="bg-teal-50 p-2 rounded-lg text-teal-600 font-bold brand-font text-xl">۸</div>
+                <h3 class="text-2xl text-gray-800 brand-font">فواید تنیس روی میز</h3>
+            </div>
+            <div class="flex flex-wrap gap-3">
+                <span class="px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold">افزایش تمرکز و واکنش سریع</span>
+                <span class="px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold">تقویت عضلات دست و پا</span>
+                <span class="px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold">بهبود هماهنگی عصب و عضله</span>
+                <span class="px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold">مناسب برای تمام سنین</span>
+                <span class="px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold">کم‌خطر و بدون برخورد فیزیکی شدید</span>
+                <span class="px-4 py-2 bg-teal-50 text-teal-700 rounded-full text-sm font-semibold">کمک به کاهش استرس</span>
+            </div>
+        </section>
+
+        <!-- 9. Iran & World -->
+        <section class="bg-white rounded-2xl shadow-sm p-6 md:p-8 hover:shadow-md transition-shadow border-r-4 border-pink-500">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="bg-pink-50 p-2 rounded-lg text-pink-600 font-bold brand-font text-xl">۹</div>
+                <h3 class="text-2xl text-gray-800 brand-font">تنیس روی میز در ایران و جهان</h3>
+            </div>
+            <p class="text-gray-600 mb-4 text-justify">
+                کشورهایی مانند <span class="font-bold text-gray-800">چین، ژاپن، کره جنوبی و آلمان</span> از قدرت‌های اصلی این رشته هستند.
+            </p>
+            <div class="bg-pink-50 p-4 rounded-lg flex items-start gap-3">
+                <i class="ph-fill ph-flag text-pink-600 text-2xl mt-1"></i>
+                <p class="text-gray-700 text-sm">
+                    در ایران نیز تنیس روی میز به‌طور رسمی زیر نظر فدراسیون تنیس روی میز فعالیت می‌کند و بازیکنان ایرانی در مسابقات آسیایی و جهانی حضور دارند.
+                </p>
+            </div>
+        </section>
+
+        <!-- 10. Conclusion -->
+        <section class="bg-red-50 rounded-2xl p-8 text-center border-2 border-red-100">
+            <div class="mb-4 text-red-500">
+                <i class="ph-duotone ph-medal text-5xl"></i>
+            </div>
+            <h3 class="text-2xl text-red-700 mb-4 brand-font">جمع‌بندی</h3>
+            <p class="text-gray-700 max-w-2xl mx-auto leading-loose">
+                تنیس روی میز ورزشی جذاب، سریع و فکری است که هم برای تفریح و هم برای قهرمانی مناسب است. یادگیری آن آسان، اما رسیدن به سطح حرفه‌ای نیازمند تمرین، صبر و تکنیک بالاست.
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-gray-400 py-6 text-center mt-12">
+        <p class="text-sm">طراحی شده با عشق به پینگ‌پنگ ❤️</p>
+        <p class="text-xs mt-2 opacity-50 font-mono">Ping Pong Guide</p>
+    </footer>
+
+</body>
+</html>
